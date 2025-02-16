@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;
+    z-index: -1;
 }
 
 .ring {
@@ -125,11 +125,13 @@
         height: 21%;
     }
 
-    .ring5, .ring7 {
+    .ring7 {
         display: none;
     }
 
     .ring2 { top: 3%; left: 3%; }
     .ring3 { bottom: 3%; right: 5%; }
     .ring4 { top: 3%; left: 30%; }
+    .ring5 { top: 3%; left: 30%; }
+    .ring6 { top: 3%; left: 30%; }
 }
