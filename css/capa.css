@@ -120,12 +120,12 @@
         box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
     }
 
-    .ring2, .ring3, .ring4 {
-        width: 40%;
-        height: 40%;
+    .ring2, .ring4, .ring3, .ring5, .ring6{
+        width: 39%;
+        height: 21%;
     }
 
-    .ring5, .ring6, .ring7 {
+    .ring5, .ring7 {
         display: none;
     }
 
